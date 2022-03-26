@@ -1,2 +1,2 @@
 # Boat-Dynamics
-Simulation of a boats dynamics.
+3DoF simulation of a boats movement
