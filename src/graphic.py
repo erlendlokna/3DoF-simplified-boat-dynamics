@@ -1,5 +1,7 @@
 
 import matplotlib.pyplot as plt
+from matplotlib import animation
+import numpy as np
 #from utils import *
 import src.utilities as utilities
 
@@ -24,15 +26,8 @@ def plot(xs, ys, txt=""):
     axs[1].legend(loc=1)
     plt.show()
 
-import matplotlib.pyplot as plt
-from matplotlib import animation
-import numpy as np
-
-
-
 # M = metasenteret = midt paa dekk
 # C = skipets tyngdepunkt
-
 
 R = 10  # skipets radius (m)
 h = 4 * R / (3 * np.pi)  # avstand M - C
